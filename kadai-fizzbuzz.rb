@@ -14,7 +14,7 @@ end
 
 num_max = 100
 
-(1..100).each do |num_max|
+(1..num_max).each do |num_max|
   puts fizzbuzz(num_max)
 end
 
